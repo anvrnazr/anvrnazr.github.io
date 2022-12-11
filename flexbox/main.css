@@ -9,9 +9,8 @@ section
 {
     display: flex;
     max-width: 1600px;
-    margin: auto;
+    margin: 20px auto;
     gap: 20px;
-padding: 20px;
 
 }
 .view
@@ -19,45 +18,70 @@ padding: 20px;
 flex: 7;
 
 border-right: 1px solid #ddd;
-padding: 20px;
+padding: 0px 20px;
 
 
 }
 .code
 {
 flex: 3;
-padding: 20px;
+/* padding: 20px; */
 
 }
 code
 {
-    font-weight: bold;
-    font-size: 16px;
+    /* font-weight: bold;
+    font-size: 16px; */
 }
 
 .view div
 {
-    border: 5px solid;
-    padding: 20px;
+    border: 2px solid;
+    padding: 10px;
     border-radius: 6px;
 
 }
 
 .wrapper    
 {
-    min-height: 250px;
+    min-height: 100px;
     gap: 10px;
 }
 .child
 {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    background: rgb(181, 230, 245);
 }
 .wrapper    
 {
     display: flex;
+    background: rgb(196, 246, 193);
 }
-.child
+
+.q1 .child:nth-child(odd)
 {
-    
+    flex: 1;
+}
+
+.q2 .wrapper
+{
+    align-items: center;
+}
+.q3 .wrapper
+{
+    justify-content: center;
+}
+.q4 .wrapper
+{
+    justify-content: space-around;
+}
+
+.q5 .wrapper
+{
+    justify-content: space-between;
+}
+.q6 .wrapper
+{
+    justify-content: space-evenly;
 }
