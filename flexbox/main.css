@@ -60,9 +60,9 @@ code
 }
 
 .q1 .child:nth-child(odd)
-{
-    flex: 1;
-}
+{flex: 1;}
+.q1 .child:nth-child(even)
+{flex: 3;}
 
 .q2 .wrapper
 {
