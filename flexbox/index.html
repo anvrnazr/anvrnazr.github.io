@@ -43,9 +43,9 @@
         </div>
         <div class="code">
             <pre><code>
-                .q1 .child:nth-child(odd)
+                .child:nth-child(odd)
                 {flex: 1;}
-                .q1 .child:nth-child(even)
+                .child:nth-child(even)
                 {flex: 3;}
             </code></pre>
         </div>
@@ -138,6 +138,32 @@
                 .wrapper
                 {
                     justify-content: space-evenly;
+                }
+            </code></pre>
+        </div>
+    </section>
+    <section class="q7">
+        <div class="view">
+            <div class="wrapper">
+                <div class="child"></div>
+                <div class="child"></div>
+                <div class="child"></div>
+                <div class="child"></div>
+            </div>
+        </div>
+        <div class="code">
+            <pre><code> 
+                .wrapper
+                {
+                    align-items: center;
+                }
+                .child:nth-child(3)
+                {
+                    align-self: stretch;
+                }
+                .child:nth-child(4)
+                {
+                    align-self: flex-end;
                 }
             </code></pre>
         </div>

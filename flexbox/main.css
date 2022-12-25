@@ -85,3 +85,15 @@ code
 {
     justify-content: space-evenly;
 }
+.q7 .wrapper
+{
+    align-items: center;
+}
+.q7 .child:nth-child(3)
+{
+    align-self: stretch;
+}
+.q7 .child:nth-child(4)
+{
+    align-self: flex-end;
+}
